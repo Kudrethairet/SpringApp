@@ -10,15 +10,14 @@ import org.springframework.context.annotation.Configuration;
 public class PersistenceConfiguration {
 
 	
-	@Bean
-	public DataSource dataSource() {
-		DataSourceBuilder builder = DataSourceBuilder.create();
-		builder.url("jdbc:postgresql://localhost:5432/postgres");
-		builder.username("postgres");
-		builder.password("hr");
-		System.out.println("this is custome to proof Bean");
-		return builder.build();
-	}
+	/*
+	 * @Bean public DataSource dataSource() { DataSourceBuilder builder =
+	 * DataSourceBuilder.create();
+	 * builder.url("jdbc:postgresql://localhost:5432/postgres");
+	 * builder.username("postgres"); builder.password("hr");
+	 * System.out.println("this is custome to proof Bean"); return builder.build();
+	 * }
+	 */
 	
 	
 	
