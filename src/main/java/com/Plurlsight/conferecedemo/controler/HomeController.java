@@ -19,7 +19,7 @@ public class HomeController {
 	@RequestMapping("/")
 	public Map<String, String> getStatus() {
 		Map<String, String> map = new HashMap<String, String>();
-		map.put("app-version", appVersion);
+		map.put("app-version:Khadirya I Meow You", appVersion);
 		return map;
 	}
 	
